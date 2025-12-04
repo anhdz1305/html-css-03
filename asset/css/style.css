@@ -10,5 +10,212 @@ body {
     font-family: "Sora", sans-serif;
 }
 a {
-    text-decoration: underline;
+    text-decoration: none;
+}
+:root {
+    --backgroup-color: #10375c;
+}
+.btn {
+    display: inline-block;
+    min-width: 205px;
+    height: 60px;
+    border-radius: 30px;
+    background: #2e80ce;
+    line-height: 60px;
+    text-align: center;
+    color: #fff;
+}
+.btn:hover {
+    opacity: 0.8;
+}
+/* header */
+.header {
+    background: var(--backgroup-color);
+    padding-top: 36px;
+}
+.container {
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: calc(100% - 48px);
+}
+.hearder-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo-container {
+    font-size: 10px;
+    display: inline-flex;
+    align-items: center;
+}
+.inner-circle {
+    display: inline-block;
+    position: relative;
+}
+.inner-circle::before {
+    display: inline-block;
+    content: "";
+    width: 3em;
+    height: 3em;
+    background: #2e80ce;
+    border-radius: 50%;
+}
+.inner-circle::after {
+    position: absolute;
+    top: 1.1em;
+    left: 1.1em;
+    content: "";
+    width: 1.6em;
+    height: 1.6em;
+    border-radius: 50%;
+    background: #fff;
+}
+.logo-text {
+    display: block;
+    text-align: right;
+    margin-left: 0.6em;
+}
+.text-shine {
+    display: block;
+    color: #fff;
+    font-size: 1.8em;
+    font-weight: 400;
+}
+.text-smile {
+    margin-top: 0.3em;
+    display: block;
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: 300;
+}
+.navbar ul {
+    display: flex;
+}
+
+.navbar__btn--lognin,
+.navbar__link {
+    position: relative;
+    padding: 4px 21px;
+    color: #c9d2da;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 300;
+    line-height: 2.8rem;
+}
+.navbar__link--active {
+    text-shadow: 1px 0 0 currentColor;
+}
+.navbar__link--active::before {
+    display: inline-block;
+    position: absolute;
+    top: 11px;
+    left: 8px;
+    content: "";
+    width: 6px;
+    height: 6px;
+    background: #fff;
+    border-radius: 50%;
+}
+.navbar__btn {
+    display: flex;
+    align-items: center;
+}
+.navbar__btn--signup {
+    margin-left: 7px;
+    min-width: 104px;
+    height: 44px;
+    line-height: 44px;
+}
+.hero-section {
+    background: var(--backgroup-color);
+    padding: 84px 0 110px;
+}
+.hero-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero__text {
+    max-width: 44%;
+}
+.hero__text--title {
+    margin-top: 60px;
+    color: #fff;
+    font-family: Sora;
+    font-size: 7rem;
+    font-weight: 600;
+    line-height: 8rem; /* 114.286% */
+    letter-spacing: -0.14rem;
+}
+.hero__text--desc {
+    margin-top: 22px;
+    color: #c9d2da;
+    font-size: 1.8rem;
+    font-weight: 300;
+    line-height: 3rem;
+}
+.hero__text--book-online {
+    margin-top: 38px;
+}
+.hero__text--call-info {
+    margin-left: 38px;
+    color: #fff;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 3rem;
+}
+.hero__image {
+    display: flex;
+    align-items: center;
+    max-width: 46%;
+}
+.hero__image--stack {
+    width: 330px;
+    height: 540px;
+    border-radius: 6px;
+    object-fit: cover;
+}
+.hero__image--secondary {
+    width: 210px;
+    height: 410px;
+    border-radius: 6px;
+    object-fit: cover;
+}
+.services {
+    padding: 170px 0;
+}
+.services__header--title {
+    color: #10375c;
+    text-align: center;
+    font-size: 5rem;
+    font-weight: 600;
+    line-height: 6rem; /* 120% */
+    letter-spacing: -0.1rem;
+}
+.services__header--desc {
+    max-width: 468px;
+    color: #575f66;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.8rem;
+    font-weight: 300;
+    line-height: 3rem;
+}
+.services__content {
+    display: flex;
+    justify-content: space-between;
+}
+.services__content {
+    margin-top: 70px;
+}
+
+.services__image--dentist {
+    width: 570px;
+    height: 570px;
+    border-radius: 30px;
+    background: #2e80ce;
+    object-fit: cover;
 }
