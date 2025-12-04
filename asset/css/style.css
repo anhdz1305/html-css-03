@@ -167,11 +167,14 @@ a {
     line-height: 3rem;
 }
 .hero__image {
+    position: relative;
     display: flex;
     align-items: center;
     max-width: 46%;
 }
 .hero__image--stack {
+    position: absolute;
+    right: 204px;
     width: 330px;
     height: 540px;
     border-radius: 6px;
