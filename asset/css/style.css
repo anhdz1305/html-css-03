@@ -27,9 +27,11 @@ a {
     text-align: center;
     color: #fff;
     border: none;
+    cursor: default;
 }
 .btn:hover {
     opacity: 0.8;
+    cursor: pointer;
 }
 
 .navigation__controls--arrow {
@@ -45,6 +47,7 @@ a {
     background: #2e80ce;
     border: none;
     color: #fff;
+    cursor: pointer;
 }
 .next-btn {
     margin-left: 18px;
@@ -211,7 +214,7 @@ a {
     padding: 170px 0;
 }
 .services__header--title {
-    color: #10375c;
+    color: var(--primary-color);
     text-align: center;
     font-size: 5rem;
     font-weight: 600;
@@ -271,7 +274,7 @@ a {
     margin-left: 19px;
 }
 .service__card--title {
-    color: #10375c;
+    color: var(--primary-color);
     font-size: 1.8rem;
     font-weight: 600;
 }
@@ -291,7 +294,7 @@ a {
     background: #f6fbff;
 }
 .works__header--title {
-    color: #10375c;
+    color: var(--primary-color);
     font-size: 5rem;
     font-weight: 600;
     letter-spacing: -0.1rem;
@@ -320,7 +323,7 @@ a {
 
 .works__title {
     margin-top: 18px;
-    color: #10375c;
+    color: var(--primary-color);
     font-size: 2.6rem;
     font-weight: 600;
 }
@@ -378,7 +381,7 @@ a {
     margin-top: 82px;
 }
 .smile__content--title {
-    color: #10375c;
+    color: var(--primary-color);
 
     font-family: Sora;
     font-size: 5rem;
@@ -406,7 +409,7 @@ a {
     padding: 85px 0 170px;
 }
 .virtual__title {
-    color: #10375c;
+    color: var(--primary-color);
     text-align: center;
     font-size: 5rem;
     font-weight: 600;
@@ -432,7 +435,7 @@ a {
     margin-top: 6px;
 }
 .doctor__name {
-    color: #10375c;
+    color: var(--primary-color);
     text-align: center;
     font-weight: 400;
 }
@@ -490,6 +493,12 @@ a {
     border: none;
     background: none;
 }
+.store-btn:hover {
+    cursor: pointer;
+    border: none;
+    background: none;
+}
+
 .app-store-btn {
     margin-left: 10px;
 }
@@ -506,7 +515,7 @@ a {
     margin-top: 68px;
 }
 .news-events__title {
-    color: #10375c;
+    color: var(--primary-color);
     font-size: 5rem;
     font-style: normal;
     font-weight: 600;
@@ -516,7 +525,7 @@ a {
 .news-events__desc {
     display: block;
     margin-top: 28px;
-    color: #10375c;
+    color: var(--primary-color);
     font-size: 1.8rem;
     font-style: normal;
     font-weight: 600;
@@ -546,7 +555,7 @@ a {
     padding: 18px 22px 21px;
 }
 .news-events__card--title {
-    color: #10375c;
+    color: var(--primary-color);
     font-weight: 600;
     line-height: 2.6rem;
 }
@@ -560,7 +569,7 @@ a {
 .news-events__card--learn-more {
     display: block;
     margin-top: 22px;
-    color: #10375c;
+    color: var(--primary-color);
     font-size: 1.4rem;
     font-weight: 400;
 }
@@ -575,7 +584,7 @@ a {
     padding: 100px 178px;
 }
 .new-patients__title {
-    color: #10375c;
+    color: var(--primary-color);
     text-align: center;
     font-size: 5rem;
     font-weight: 600;
