@@ -403,7 +403,7 @@ a {
 /* virtual-dentist-section */
 
 .virtual-dentist-section {
-    padding: 85px;
+    padding: 85px 0 170px;
 }
 .virtual__title {
     color: #10375c;
@@ -452,7 +452,7 @@ a {
 
 /* .download-app */
 .download-app {
-    padding: 85px;
+    padding: 95px 0 85px;
 }
 .app-download__content {
     display: flex;
