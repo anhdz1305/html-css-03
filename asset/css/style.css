@@ -12,6 +12,9 @@ body {
 a {
     text-decoration: none;
 }
+a:hover {
+    text-decoration: underline;
+}
 :root {
     --primary-color: #10375c;
 }
@@ -42,7 +45,7 @@ a {
     border: 1px solid #575f66;
     background-color: #fff;
 }
-.next-btn,
+
 .navigation__controls--arrow:hover {
     background: #2e80ce;
     border: none;
@@ -310,11 +313,10 @@ a {
     line-height: 3rem;
 }
 .works__container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 30px;
     margin-top: 86px;
-    display: flex;
-    justify-content: space-between;
-    align-content: center;
-    gap: 30px;
 }
 .works__content {
     padding: 43px;
@@ -342,7 +344,6 @@ a {
     color: #575f66;
     font-weight: 300;
 }
-.featured-step,
 .works__content:hover {
     border-color: #2e80ce;
 }
@@ -411,10 +412,9 @@ a {
 }
 
 .doctors__list {
-    display: flex;
-    align-content: center;
-    justify-content: space-between;
-    gap: 30px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 30px;
     margin-top: 70px;
 }
 .doctor__image img {
@@ -517,9 +517,10 @@ a {
 }
 
 .news-events__list {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 30px;
     max-width: 50%;
-    gap: 30px;
 }
 .news-events__card {
     max-width: 270px;
@@ -594,15 +595,15 @@ a {
     padding: 100px 0 42px;
 }
 .footer__content {
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr 0.4fr 0.4fr 1fr;
+    column-gap: 78px;
 }
 .footer__brand--desc {
     margin-top: 21px;
     color: #a9b3bb;
     line-height: 2.8rem;
     gap: 10px;
-    width: 336px;
 }
 .footer__title {
     color: #fff;
@@ -615,6 +616,7 @@ a {
     color: #a9b3bb;
     font-size: 1.4rem;
     font-style: normal;
+    white-space: nowrap;
 }
 .support-02,
 .support-04 {
@@ -642,7 +644,6 @@ a {
 .icon-fb {
     margin-left: 0;
 }
-.icon-fb,
 .footer__social--icon:hover {
     background: #2e80ce;
     color: #fff;
@@ -651,9 +652,10 @@ a {
     margin-top: 28px;
 }
 .footer__subscribe--desc {
+    width: 273px;
     line-height: 2.6rem;
     margin-top: 20px;
-    width: 273px;
+    white-space: normal;
 }
 .footer__subscribe--form {
     margin-top: 10px;
