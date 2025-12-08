@@ -98,6 +98,17 @@ a {
     border-radius: 50%;
     background: #fff;
 }
+
+.heading-section {
+    color: #10375c;
+    text-align: center;
+    font-family: Sora;
+    font-size: 5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 6rem; /* 120% */
+    letter-spacing: -0.1rem;
+}
 /* header */
 .header {
     background: var(--primary-color);
@@ -214,14 +225,7 @@ a {
 .services {
     padding: 170px 0;
 }
-.services__header--title {
-    color: var(--primary-color);
-    text-align: center;
-    font-size: 5rem;
-    font-weight: 600;
-    line-height: 6rem; /* 120% */
-    letter-spacing: -0.1rem;
-}
+
 .services__header--desc {
     max-width: 468px;
     color: #575f66;
@@ -294,11 +298,8 @@ a {
     padding: 100px 116px;
     background: #f6fbff;
 }
-.works__header--title {
-    color: var(--primary-color);
-    font-size: 5rem;
-    font-weight: 600;
-    letter-spacing: -0.1rem;
+.heading-section__works {
+    text-align: left;
 }
 .works__header--desc {
     max-width: 468px;
@@ -381,15 +382,8 @@ a {
     margin-left: 188px;
     margin-top: 82px;
 }
-.smile__content--title {
-    color: var(--primary-color);
-
-    font-family: Sora;
-    font-size: 5rem;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 6rem; /* 120% */
-    letter-spacing: -0.1rem;
+.heading-section__smile {
+    text-align: start;
 }
 .smile__content--desc {
     margin-top: 18px;
@@ -409,13 +403,7 @@ a {
 .virtual-dentist-section {
     padding: 85px 0 170px;
 }
-.virtual__title {
-    color: var(--primary-color);
-    text-align: center;
-    font-size: 5rem;
-    font-weight: 600;
-    letter-spacing: -0.1rem;
-}
+
 .virtual__btn {
     display: flex;
     margin-top: 38px;
@@ -471,13 +459,9 @@ a {
 .app__content {
     padding: 76px 70px 70px 514px;
 }
-.app__content--title {
-    width: 489px;
+.heading-section__app {
+    text-align: left;
     color: #fff;
-    font-size: 5rem;
-    font-weight: 600;
-    line-height: 6rem; /* 120% */
-    letter-spacing: -0.1rem;
 }
 .app__content--desc {
     width: 586px;
@@ -515,13 +499,8 @@ a {
 .news-events__content {
     margin-top: 68px;
 }
-.news-events__title {
-    color: var(--primary-color);
-    font-size: 5rem;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 6rem; /* 120% */
-    letter-spacing: -0.1rem;
+.heading-section__news-events {
+    text-align: left;
 }
 .news-events__desc {
     display: block;
@@ -584,14 +563,7 @@ a {
 .new-patients__content {
     padding: 100px 178px;
 }
-.new-patients__title {
-    color: var(--primary-color);
-    text-align: center;
-    font-size: 5rem;
-    font-weight: 600;
-    line-height: 6rem; /* 120% */
-    letter-spacing: -0.1rem;
-}
+
 .new-patients__underline {
     margin-top: 18px;
     content: "";
@@ -613,6 +585,7 @@ a {
     margin-top: 38px;
     justify-content: center;
 }
+/* footer */
 .footer {
     background: var(--primary-color);
     font-family: "Open Sans", sans-serif !important;
